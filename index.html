@@ -1,0 +1,296 @@
+<html>
+  <head>
+    <title>solsort.com</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="font/awesome/css/font-awesome.min.css">
+    <style>
+      @font-face{font-family:Ubuntu; font-weight:400; src: url(/font/ubuntu-latin1.ttf) format(truetype);}
+      @font-face{font-family:Ubuntu; font-weight:700; src: url(/font/ubuntu-bold-latin1.ttf) format(truetype);}
+      body{
+        margin:0;
+        padding:0;
+        font-family:Ubuntu,sans-serif;
+      }
+      h1 {
+        margin: 20px 0 20px 0;
+        text-align: center;
+      }
+      h1 img {
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        margin: 0 20px 0 0;
+      }
+      h1 span {
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+        display: inline-block;
+        font-weight: normal;
+        font-size: 40px;
+        text-align:center;
+      }
+      hr {
+        width: 80%;
+        margin-bottom: 40px;
+      }
+      div {
+        margin: 0;
+        padding: 0;
+      }
+      .items {
+        text-align: center;
+        font-size: 24px;
+        word-spacing: 24px;
+      }
+      .items a {
+        white-space: nowrap;
+        word-spacing: 0px;
+      }
+      .entries {
+        text-align:center;
+      }
+      .entries > div {
+        vertical-align: top;
+        display: inline-block;
+        margin: 40px 0 40px 0;
+      }
+      .entries > div > div {
+        display: inline-block;
+        vertical-align: top;
+        width: 310px;
+        margin: 0 5px 0 5px;
+      }
+      .left {
+        text-align: right;
+      }
+      .left img { float: right; border: 1px solid #333; border-radius: 130px; width: 130px; height: 130px; margin: 0 0 -10px 10px; }
+      .published { display: inline-block; clear: none; }
+      .date { color: #333; font-size: 16px; clear: none; }
+      .year { color: #999; font-size: 24px; clear: none; }
+      .right {
+        width: 320px;
+        text-align: left;
+
+      }
+      h2 { margin: 0; padding: 0; font-weight: normal; font-size: 24px; text-align: left; }
+      .right a.fa {
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        font-size: 44px;
+        text-shadow: 1px 1px 3px rgba(0,0,0,1);
+      }
+      .linkbox {
+        display: inline-block;
+        height: 26px;
+        vertical-align: bottom;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 1px 3px 1px 2px;
+        border: 4px solid;
+        text-shadow: 1px 1px 3px rgba(0,0,0,1);
+        box-shadow: 1px 1px 3px rgba(0,0,0,1);
+      }
+      .right div {
+        margin-top: 6px;
+      }
+      .tags {
+        line-height: 27px
+      }
+      .tags span {
+        white-space: nowrap;
+        padding: 0px 1px 2px 1px;
+        border-radius: 2px;
+        color: #444;
+        background-color: #e8e8e8;
+        border: 1px solid #d8d8d8;
+      }
+      .links {
+        word-spacing: 8px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1><img src="icons/solsort.png"> <span>solsort.com ApS</span></h1>
+    <div class=items><a>Apps</a> <a>Visualisations</a> <a>HTML5</a> <a>Open data</a> <a>IT-consulting</a></div>
+    <hr>
+    <div class="entries">
+
+      <div itemscope itemtype="http://schema.org/Person">
+        <div class=left>
+          <img itemprop=image src=icons/rasmuserik.png>
+        </div>
+        <div class=right>
+          <h2 itemprop=name>Rasmus Erik Voel Jensen</h2>
+          <div class=tags itemprop=keywords>
+            <span>computer scientist</span>
+          </div>
+          <div itemprop=description>
+            Creator of these things. <br/>
+            Feel free to contact.
+          </div>
+          <div class=links>
+             <a class="fa" style="color:#336">@</a>
+             <a class="fa fa-envelope" style="color:#ffc"></a>
+             <a class="fa fa-phone" style="color:#363" href="tel:60703081"></a>
+             <a class="linkbox" style="color:#933" href="">CV</a>
+             <!--a class="fa fa-github" style="color:#333" href="http://github.com/rasmuserik"></a-->
+          </div>
+        </div>
+      </div>
+
+      <div itemscope itemtype="http://schema.org/CreativeWork">
+        <div class=left>
+          <img itemprop=image src=icons/bibgraph.png>
+          <div class=published itemprop=datePublished>
+            <div class=date>July</div>
+            <div class=year>2013</div>
+          </div>
+        </div>
+        <div class=right>
+          <h2 itemprop=name>BibGraph</h2>
+          <div class=tags itemprop=keywords>
+            <span class=kind>visualisation</span>
+            <span class=state>demo</span>
+            <span>dbc</span> <span>bibliography</span> <span>graph</span>
+          </div>
+          <div itemprop=description>Visualisation of relations between books and other library materials, generated from the ADHL statistics about danish co-loans</div>
+          <div class=links>
+            <a class="fa fa-cloud" style="color:#ccf"></a>
+            <a class="fa fa-github" style="color:#333" href="http://github.com/DBCDK/bibgraph"></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div itemscope itemtype="http://schema.org/CreativeWork">
+        <div class=left>
+          <img itemprop=image src=icons/speeding.png>
+          <div class=published itemprop=datePublished>
+            <div class=date>May 16</div>
+            <div class=year>2013</div>
+          </div>
+        </div>
+        <div class=right>
+          <h2 itemprop=name>Speeding</h2>
+          <div class=tags itemprop=keywords>
+            <span class=kind>visualisation</span>
+            <span class=state>production</span>
+            <span>hammertime</span> <span>code only</span> <span>frontend only</span>
+          </div>
+          <div itemprop=description>Visualiseringskode for vejdirektoratet - layout baseret på tidligere udgave</div>
+          <div class=links>
+            <a class="fa fa-html5" style="color:#c42" href="speeding/public"></a>
+            <a class="fa fa-cloud" style="color:#ccf" href="http://www.vejdirektoratet.dk/da/trafik/planl%C3%A6g%20turen/voresfart/sider/default.aspx"></a>
+            <a class="fa fa-github" style="color:#333" href="http://github.com/rasmuserik/app-speeding"></a>
+          </div>
+        </div>
+      </div>
+
+      <div itemscope itemtype="http://schema.org/CreativeWork">
+        <div class=left>
+          <img itemprop=image src=icons/html5cnug.png>
+          <div class=published itemprop=datePublished>
+            <div class=date>August 14</div>
+            <div class=year>2013</div>
+          </div>
+        </div>
+        <div class=right>
+          <h2 itemprop=name>HTML5 presentation CNUG</h2>
+          <div class=tags itemprop=keywords>
+            <span class=kind>slides</span>
+            <span class=state>done</span>
+          </span> <span>html5</span> <span>webrtc</span>
+        </div>
+        <div itemprop=description>Visualiseringskode for vejdirektoratet - layout baseret på tidligere udgave</div>
+        <div class=links>
+          <a class="fa fa-desktop" style="color:#482" href="slides/public"></a>
+          <a class="fa fa-cloud" style="color:#ccf" href="http://www.vejdirektoratet.dk/da/trafik/planl%C3%A6g%20turen/voresfart/sider/default.aspx"></a>
+          <a class="fa fa-github" style="color:#333" href="http://github.com/rasmuserik/app-speeding"></a>
+        </div>
+      </div>
+    </div>
+
+    <div itemscope>
+      <div class=left>
+        <img itemprop=image src=icons/blobshot.png>
+        <div class=published itemprop=datePublished>
+          <div class=date>May</div>
+          <div class=year>2012</div>
+        </div>
+      </div>
+      <div class=right>
+        <h2 itemprop=name>Blobshot</h2>
+        <div itemprop="description">Result of HTML5 hackathon</div>
+        <div>
+          <a class="fa fa-html5" style="color:#c42"></a>
+          <a class="fa fa-android" style="color:#A4C639"></a>
+          <a class="fa fa-apple" style="color:#ccc"></a>
+          <a class="fa fa-github-square" style="color:#333"></a>
+          <a class="fa fa-file-text-o" style="color:#876"></a>
+          <a class="fa" style="color:#336">@</a>
+        </div>
+      </div>
+    </div>
+
+    <div itemscope>
+      <div class=left>
+        <img itemprop=image src=icons/combigame.png>
+        <div class=published itemprop=datePublished>
+          <div class=date>July</div>
+          <div class=year>2013</div>
+        </div>
+      </div>
+      <div class=right>
+        <h2 itemprop=name>BibGraph</h2>
+      </div>
+    </div>
+
+    <div itemscope>
+      <div class=left>
+        <img itemprop=image src=icons/cuteengine.png>
+        <div class=published itemprop=datePublished>
+          <div class=date>September 30</div>
+          <div class=year>2013</div>
+        </div>
+      </div>
+      <div class=right>
+        <h2 itemprop=name>BibGraph</h2>
+        <a><span class=logoLink style="background:#a00; color: white">PDF</span></a>
+        <a><span class=logoLink>Text</span></a>
+      </div>
+    </div>
+
+    <br>
+    summer-hacks.png 2013 August 14
+    html5cnug.png  2013 May
+    dragimation.png 2013 April 30
+    tsar-tnoc.png 2012 July 12
+    eurocards.jpg  2012 June 
+    combigame.png 2012
+    cuteengine.png   2011 August
+    dkcities.png     2011 August
+    notescore.png 2011 May-July
+    skrivetips.png  200?
+
+    <a class="fa fa-html5" style="color:#c42"></a>
+    <a class="fa fa-cloud" style="color:#ccf"></a>
+    <a class="fa fa-github" style="color:#333" href="http://github.com/DBCDK/bibgraph"></a>
+    <a class="fa fa-android" style="color:#A4C639"></a>
+    <a class="fa fa-apple" style="color:#ccc"></a>
+    <a class="fa fa-file-text-o" style="color:#876"></a>
+    <a class="fa" style="color:#336">@</a>
+
+    <script src="solsort.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+[submodule "icons"]
+	path = icons
+	url = git@github.com:rasmuserik/icons.git
+[submodule "360"]
+	path = 360
+	url = git@github.com:onetwo360/360-viewer.git
+[submodule "danske-byer"]
+	path = danske-byer
+	url = git@github.com:rasmuserik/dkcities.git
+[submodule "hack4dk"]
+	path = hack4dk
+	url = git@github.com:rasmuserik/hack4dk.git
+[submodule "cute-engine"]
+	path = cute-engine
+	url = git@github.com:rasmuserik/planetcute.git
+[submodule "lightscript"]
+	path = lightscript
+	url = git@github.com:rasmuserik/lightscript.git
+[submodule "notescore"]
+	path = notescore
+	url = git@github.com:rasmuserik/notescore.git
+[submodule "dragimation"]
+	path = dragimation
+	url = git@github.com:rasmuserik/app-dragimation.git
+[submodule "speeding"]
+	path = speeding
+	url = git@github.com:rasmuserik/app-speeding.git
+[submodule "tsartnoc"]
+	path = tsartnoc
+	url = git@github.com:rasmuserik/app-tsartnoc.git
+[submodule "slides/berlincompiler2013-yolan"]
+	path = slides/berlincompiler2013-yolan
+	url = git@github.com:rasmuserik/talk-berlincompiler-sideproject.git
+[submodule "slides/bibtekkonf2013-bibgraph"]
+	path = slides/bibtekkonf2013-bibgraph
+	url = git@github.com:rasmuserik/talk-bibtekkonf-bibgraph.git
+[submodule "slides/cnug2013-html5"]
+	path = slides/cnug2013-html5
+	url = git@github.com:rasmuserik/talk-cnug-html5-2013.git
+[submodule "slides/cphjs2012-js-engines"]
+	path = slides/cphjs2012-js-engines
+	url = git@github.com:rasmuserik/talk-jsengines-cphjs-2012.git
+[submodule "slides/cphjs2013-summer-hacks"]
+	path = slides/cphjs2013-summer-hacks
+	url = git@github.com:rasmuserik/talk-copenhagenjs-summerhacks.git
+[submodule "slides/osd2013-html5"]
+	path = slides/osd2013-html5
+	url = git@github.com:rasmuserik/talk-osd2013-html5.git
