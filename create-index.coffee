@@ -6,19 +6,22 @@ jsonml2html = require "jsonml2html"
 apps =
   rasmuserik:
     name: "Rasmus Erik Voel Jensen"
-    desc: "Contact info, and more about the creator of these things"
+    desc: "Creator of these things.<br>Feel free to contact."
     icon: "rasmuserik.jpg"
-    tags: [ "computer scientist" ]
+    tags:  "computer scientist"
     links:
+      email: ""
+      address: ""
+      tel: "tel:60703081"
+      cv: ""
       html5: "/rasmuserik.html"
-      github: ""
 
   "bibtek-konf":
     name: "BibTekKonf BibGraph"
     iconx: "bibgraph.png"
     title: "Slides: BibTekKonf BibGraph"
     date: "2013-10-26"
-    tags: [ "slides-tech-talks", "talk", "presentation", "bibtekkonf", "bibgraph" ]
+    tags:  "slides-tech-talks, talk, presentation, bibtekkonf, bibgraph"
     desc: "Slides fra BibTekKonf præsentation om visualisering ud fra ADHL-data"
     type: "presentation"
     links:
@@ -27,14 +30,14 @@ apps =
   "music-131023":
     music: "131023"
     date: "2013-10-23"
-    tags: [ "scores", "classical" ]
+    tags:  "scores, classical"
     type: "music"
     links: {}
 
   mmm:
     music: "131023"
     date: "2013-10-23"
-    tags: [ "scores", "sad" ]
+    tags:  "scores, sad"
     type: "music"
     links: {}
 
@@ -42,7 +45,7 @@ apps =
     date: "2013-09-28"
     desc: "Hack4dk hackathon hack: graph visualisation from wikipedia"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links:
       github: "rasmuserik/hack4dk"
       html5: "/hack4dk/d3wikipedia?Open+data"
@@ -51,7 +54,7 @@ apps =
     date: "2013-09-28"
     desc: "Hack4dk hackathon hack: pure javascript destinction between differen kind of images. (utility code needed by another team)"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links:
       github: "rasmuserik/hack4dk"
       html5: "/hack4dk/imextract"
@@ -60,7 +63,7 @@ apps =
     date: "2013-09-28"
     desc: "Hack4dk hackathon hack: art quiz"
     type: "apps"
-    tags: [ "apps", "" ]
+    tags:  "apps"
     links:
       github: "rasmuserik/hack4dk"
       html5: "/hack4dk/quiz"
@@ -70,7 +73,7 @@ apps =
     title: "Slides: Summer Hacks"
     icon: "summer-hacks.png"
     date: "2013-08-14"
-    tags: [ "slides-tech-talks", "copenhagenjs", "talk", "presentation", "bibgraph", "skolevej" ]
+    tags:  "slides-tech-talks, copenhagenjs, talk, presentation, bibgraph, skolevej"
     desc: "Slides for presentation at CopenhagenJS on various summer hacks: BibGraph and Skolevej"
     type: "presentation"
     links:
@@ -81,7 +84,7 @@ apps =
     name: "BibGraph"
     date: "2013-08-02"
     icon: "bibgraph.png"
-    tags: [ "widgets", "coffeescript", "dbc", "adhl", "d3", "visualisation", "graph" ]
+    tags:  "widgets, dbc, adhl, d3, visualisation, graph"
     desc: "Visualisation of relations between books and other library materials, generated from the ADHL statistics about danish co-loans"
     type: "apps"
     links:
@@ -92,7 +95,7 @@ apps =
   skolevej:
     name: "Skolevej"
     date: "2013-07-08"
-    tags: [ "protoapps", "coffeescript", "hammertime", "gis", "leaflet", "openstreetmap" ]
+    tags:  "protoapps, hammertime, gis, leaflet, openstreetmap"
     desc: "Demo/frontend of editor for safe school routes - made for Hammertime / Odense Kommune"
     icon: "skolevej.png"
     type: "apps"
@@ -103,7 +106,7 @@ apps =
     title: "Slides: HTML5"
     date: "2013-05-22"
     icon: "html5cnug.png"
-    tags: ["slides-tech-talks", "presentation", "html5", "cnug"]
+    tags: "slides-tech-talks, presentation, html5, cnug"
     desc: "Slides for presentation done at CNUG.dk"
     time: "3 days study/preparation for presentation, 1 hour presentation"
     type: "presentation"
@@ -113,10 +116,10 @@ apps =
   speeding:
     state: "production"
     role: "optimisation / reimplementation to solve performance issue"
-    name: "Vores fart - visualisering"
+    name: "visualisering"
     icon: "speeding.png"
     title: "Speeding visualisation"
-    tags: ["widgets", "coffeescript", "hammertime", "visualisation"]
+    tags: "widgets, hammertime, visualisation"
     date: "2013-05-15"
     desc: "Visualiseringskode for vejdirektoratet - layout baseret på tidligere udgave"
     time: "5 hours trying to optimise original outsourced code, then 10 hours reimplementing it"
@@ -131,7 +134,7 @@ apps =
     desc: "Notes for a presentation on productivity hacks. Keywords of my aproaches to handle the world."
     date: "2013-04-30"
     type: "writings"
-    tags: [ "notes", "" ]
+    tags:  "notes"
     links:
       github: "rasmuserik/writings"
       html5: "/notes/productivity-hacks"
@@ -140,7 +143,7 @@ apps =
     name: "Dragimation"
     date: "2013-04-30"
     icon: "dragimation.png"
-    tags: [ "widgets", "coffeescript", "hammertime", "visualisation", "html5" ]
+    tags:  "widgets, hammertime, visualisation, html5"
     desc: "Dragging animation special effect - as requested for the development of legoland billund resort web page."
     type: "apps"
     links:
@@ -153,7 +156,7 @@ apps =
     desc: "Tool for pricing and estimating cost."
     date: "2013"
     type: "writings"
-    tags: [ "notes", "" ]
+    tags:  "notes"
     links:
       github: "rasmuserik/writings"
       html5: "/notes/pricing-scale"
@@ -164,14 +167,14 @@ apps =
     icon: "tsar-tnoc.png"
     date: "2012-07-15"
     type: "apps"
-    tags: [ "app", "game", "ludum dare", "hackathon" ]
+    tags:  "app, game, ludum dare, hackathon"
     links:
       html5: "/tsartnoc"
       github: "contrasts"
 
   eurocards:
     name: "EuroCards"
-    tags: [ "cardgames", "card game" ]
+    tags:  "cardgames, card game"
     icon: "eurocards.jpg"
     desc: "top-trump like card game for learning facts about european countries"
     date: "2012-06-20"
@@ -187,7 +190,7 @@ apps =
     date: "2012-05-06"
     icon: "blobshot.png"
     type: "apps"
-    tags: [ "apps", "" ]
+    tags:  "apps"
     links:
       html5: "http://blobshot.solsort.com"
       online: "http://old.solsort.com/#blobshot"
@@ -198,7 +201,7 @@ apps =
     date: "2012-03-26"
     type: "apps"
     icon: "combigame.png"
-    tags: [ "apps", "" ]
+    tags:  "apps"
     links:
       html5: "http://old.solsort.com/#combigame"
       play: "com.solsort.combigame"
@@ -208,7 +211,7 @@ apps =
     desc: "Checklist / notes for giving feedback on presentations. Useful for Toastmasters and similar."
     date: "2012-03-18"
     type: "writings"
-    tags: [ "notes", "" ]
+    tags:  "notes"
     links:
       github: "rasmuserik/writings"
       html5: "/notes/presentation-evaluation"
@@ -220,7 +223,7 @@ apps =
     date: "2011-08"
     type: "apps"
     icon: "notescore.png"
-    tags: [ "apps", "" ]
+    tags:  "apps"
     links:
       html5: "/notescore"
       play: "dk.solsort.notescore"
@@ -233,7 +236,7 @@ apps =
     date: "2011-08"
     type: "apps"
     icon: "dkcities.png"
-    tags: [ "apps", "" ]
+    tags:  "apps"
     links:
       html5: "/danske-byer"
       play: "com.solsort.dkcities"
@@ -246,7 +249,7 @@ apps =
     time: "3 days"
     type: "apps"
     icon: "cuteengine.png"
-    tags: [ "protoapps", "" ]
+    tags:  "protoapps"
     links:
       html5: "/cute-engine"
       github: "rasmuserik/planetcute"
@@ -254,56 +257,56 @@ apps =
   "a-tango-unfinished":
     music: "070113-tango"
     date: "2007-01-13"
-    tags: [ "scores", "tango" ]
+    tags:  "scores, tango"
     type: "music"
     links: {}
 
   "music-070113":
     music: "070113"
     date: "2007-01-13"
-    tags: [ "scores", "classical" ]
+    tags:  "scores, classical"
     type: "music"
     links: {}
 
   elala:
     music: "070102-elala"
     date: "2007-01-02"
-    tags: [ "scores", "classical chord-progression" ]
+    tags:  "scores, classical chord-progression"
     type: "music"
     links: {}
 
   rosa:
     music: "070101-rosa.midi"
     date: "2007-01-01"
-    tags: [ "scores", "tango" ]
+    tags:  "scores, tango"
     type: "music"
     links: {}
 
   drommespejl:
     music: "061231-song"
     date: "2006-12-31"
-    tags: [ "scores", "sad" ]
+    tags:  "scores, sad"
     type: "music"
     links: {}
 
   "tango-tema-del-ultimo-2006":
     music: "061231-tango-tema"
     date: "2006-12-31"
-    tags: [ "scores", "tango" ]
+    tags:  "scores, tango"
     type: "music"
     links: {}
 
   "untitled-nuevo-tema":
     music: "061231-tango-nuevo-tema"
     date: "2006-12-31"
-    tags: [ "scores", "tango" ]
+    tags:  "scores, tango"
     type: "music"
     links: {}
 
   "ca-ra-ca-fu":
     music: "061227-ca-ra-ca-fu"
     date: "2006-12-27"
-    tags: [ "scores", "digitisation" ]
+    tags:  "scores, digitisation"
     desc: "Digitisation/typesetting of an out-of-copyright tango score"
     type: "music"
     links: {}
@@ -316,7 +319,7 @@ apps =
     desc: "Tips / noter om skrivning, herunder også struktur for videnskabelige rapporter. Tips for effective writing (in Danish)."
     date: "2005"
     type: "writings"
-    tags: [ "notes", "" ]
+    tags:  "notes"
     links:
       github: "rasmuserik/writings"
       html5: "/notes/skrivetips"
@@ -324,56 +327,56 @@ apps =
   "f1k-brownian":
     desc: "fading random cloudsw generated through brownian noise in 127bytes"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   structcomp:
-    tags: [ "computerscience", "thesis bsc" ]
+    tags:  "computerscience, thesis bsc"
     type: "writings"
     links: {}
 
   billeder:
     todo: "tegninger"
     type: "meta"
-    tags: [ "TODO", "" ]
+    tags:  "TODO"
     links: {}
 
   moblang:
-    tags: [ "computerscience", "thesis msc" ]
+    tags:  "computerscience, thesis msc"
     type: "writings"
     links: {}
 
   "vejviser-workflow":
     url: "http://pocr.sourceforge.net/"
     type: "apps"
-    tags: [ "apps", "" ]
+    tags:  "apps"
     links: {}
 
   "iva-paper":
-    tags: [ "computerscience", "article" ]
+    tags:  "computerscience, article"
     type: "writings"
     links: {}
 
   "vejviser-korrektur":
     type: "apps"
-    tags: [ "apps", "" ]
+    tags:  "apps"
     links:
       online: "http://kbh-vejviser.dk"
 
   "tempo-paper":
-    tags: [ "computerscience", "article" ]
+    tags:  "computerscience, article"
     type: "writings"
     links: {}
 
   bibdata:
     desc: "mobile+linked-data frontend for library"
     type: "apps"
-    tags: [ "protoapps", "" ]
+    tags:  "protoapps"
     links: {}
 
   "lightscript-old":
     type: "code"
-    tags: [ "languages", "" ]
+    tags:  "languages"
     links:
       github: "rasmuserik/lightscript-old"
       html5: "thesis"
@@ -381,116 +384,116 @@ apps =
   "f1k-rain":
     todo: "todo"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   "combigame-card":
     desc: "Card game version of combigame"
     type: "physical"
-    tags: [ "cardgames", "" ]
+    tags:  "cardgames"
     links: {}
 
   "f1k-sierp":
     desc: "sierpinski triangle in 70bytes"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   "design-og-evaluering-af-et-introducerende-datalogikursus":
     todo: "todo"
     type: "physical"
-    tags: [ "print", "" ]
+    tags:  "print"
     links: {}
 
   "yolan-editor":
     todo: "probably remove due to security"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   yolan:
     type: "code"
-    tags: [ "languages", "" ]
+    tags:  "languages"
     links:
       github: "rasmuserik/yolan"
 
   "hier-brows":
     todo: "todo"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   lightscript:
     type: "code"
-    tags: [ "languages", "" ]
+    tags:  "languages"
     links:
       github: "rasmuserik/lightscript"
 
   "diamond-square-plasma":
     desc: ""
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   jsxml:
     npmjs: "jsxml"
     type: "code"
-    tags: [ "lib", "" ]
+    tags:  "lib"
     links:
       github: "rasmuserik/jsxml"
 
   "js-beautify":
     todo: "todo"
     type: "code"
-    tags: [ "oss-contrib", "" ]
+    tags:  "oss-contrib"
     links: {}
 
   "uccorg-backend":
     type: "code"
-    tags: [ "lib", "" ]
+    tags:  "lib"
     links:
       github: "rasmuserik/UCC-Organism/uccorg-backend"
 
   "firefox-e4x":
     todo: "todo"
     type: "code"
-    tags: [ "oss-contrib", "" ]
+    tags:  "oss-contrib"
     links: {}
 
   jsonml2html:
     npmjs: "jsonml2html"
     type: "code"
-    tags: [ "lib", "" ]
+    tags:  "lib"
     links: {}
 
   "stack-languages":
     todo: "todo - stack-lang from thesis, f1k"
     type: "code"
-    tags: [ "languages", "" ]
+    tags:  "languages"
     links: {}
 
   grundat:
     type: "presentation"
-    tags: [ "teaching", "" ]
+    tags:  "teaching"
     links:
       github: "rasmuserik/rasmusjensen/grundat"
 
   "osd-javascript":
     todo: "todo"
     type: "presentation"
-    tags: [ "slides-tech-talks", "" ]
+    tags:  "slides-tech-talks"
     links: {}
 
   "find-a-day":
     desc: "meteor calendar-oriented doodle-like app"
     type: "apps"
-    tags: [ "protoapps", "" ]
+    tags:  "protoapps"
     links: {}
 
   "osd-html5":
     todo: "todo"
     type: "presentation"
-    tags: [ "slides-tech-talks", "" ]
+    tags:  "slides-tech-talks"
     links: {}
 
   "onetwo360-client":
@@ -498,7 +501,7 @@ apps =
       "/360": "360-viewer"
 
     type: "apps"
-    tags: [ "widgets", "" ]
+    tags:  "widgets"
     links:
       github: "rasmuserik/onetwo360/360-viewer"
       online: "/360/demo.html"
@@ -506,56 +509,56 @@ apps =
   "berlincompiler-yolan":
     todo: "todo"
     type: "presentation"
-    tags: [ "slides-tech-talks", "" ]
+    tags:  "slides-tech-talks"
     links: {}
 
   treelayout:
     desc: "Layout a tree datastructure as boxes - GUI-experiment"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   jsengines:
     todo: "todo"
     type: "presentation"
-    tags: [ "slides-tech-talks", "" ]
+    tags:  "slides-tech-talks"
     links: {}
 
   "meteor-litcoffee":
     todo: "todo"
     type: "code"
-    tags: [ "oss-contrib", "" ]
+    tags:  "oss-contrib"
     links: {}
 
   scores:
     build: "lilypond *.ly"
     type: "meta"
-    tags: [ "build", "" ]
+    tags:  "build"
     links:
       github: "rasmuserik/music"
 
   "rhino-e4x":
     todo: "todo"
     type: "code"
-    tags: [ "oss-contrib", "" ]
+    tags:  "oss-contrib"
     links: {}
 
   massdrive:
     desc: "experiment with touch flying square"
     type: "apps"
-    tags: [ "protoapps", "" ]
+    tags:  "protoapps"
     links: {}
 
   photos:
     todo: "by category"
     type: "meta"
-    tags: [ "TODO", "" ]
+    tags:  "TODO"
     links: {}
 
   indretning:
-    todo: [ "Duden skænk", "Node væg", "Wires", "Hjørnehylder" ]
+    todo:  "Duden skænk, Node væg, Wires, Hjørnehylder"
     type: "meta"
-    tags: [ "TODO", "" ]
+    tags:  "TODO"
     links: {}
 
   old:
@@ -563,7 +566,7 @@ apps =
       "/old": "app-old/public"
 
     type: "meta"
-    tags: [ "build", "" ]
+    tags:  "build"
     links:
       github: "rasmuserik/app-old"
 
@@ -573,19 +576,19 @@ apps =
       yolan: ":1234"
 
     type: "meta"
-    tags: [ "build", "" ]
+    tags:  "build"
     links:
       github: "rasmuserik/yolan"
 
   jurapp:
     desc: "prototyping decision support for social workers"
     type: "apps"
-    tags: [ "protoapps", "" ]
+    tags:  "protoapps"
     links: {}
 
   "yolan-old":
     type: "code"
-    tags: [ "languages", "" ]
+    tags:  "languages"
     links:
       github: "rasmuserik/language-experiment"
       html5: "thesis"
@@ -593,20 +596,20 @@ apps =
   fototips:
     desc: "notes for taking photos"
     type: "writings"
-    tags: [ "notes", "" ]
+    tags:  "notes"
     links:
       github: "rasmuserik/writings"
 
   "force-based-graph":
     desc: "simple implementation of force-based graph layout"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
   "fractal-4d":
     desc: "visualisation of 4d fractal"
     type: "apps"
-    tags: [ "demo", "" ]
+    tags:  "demo"
     links: {}
 
 #{{{2 processing
@@ -614,6 +617,7 @@ apps =
 for key, val of apps
   val.date ?= ""
   val.links ?= []
+  val.tags = (val.tags || "").split ", "
 
 #{{{1 generate index.html
 #{{{2 style
@@ -669,18 +673,20 @@ style =
 
   ".entry":
     display: "inline-block"
+    verticalAlign: "top"
     marginBottom: 60
     marginLeft: 20
     marginRight: 20
     wordSpacing: 0
 
   ".icon":
-    width: 110
-    height: 110
-    margin: "5px 15px 5px 15px"
+    width: 100
+    height: 100
+    margin: "5px 29px 5px 29px"
     verticalAlign: "top"
     borderRadius: 100
-    boxShadow: "1px 1px 3px rgba(0,0,0,1)"
+    border: "1px solid #888"
+    #boxShadow: "1px 1px 3px rgba(0,0,0,1)"
 
   ".meta":
     verticalAlign: "top"
@@ -689,7 +695,6 @@ style =
     width: 300
     margin: "0 -10px 0 -10px"
 
-
   ".date":
     padding: 0
     margin: 0
@@ -697,14 +702,20 @@ style =
     verticalAlign: "top"
     textAlign: "right"
     display: "inline-block"
+    marginBottom: 0
+
+  ".date div":
+    marginBottom: 0
   ".monthdate":
     color: "#555"
     fontSize: 16
     clear: "none"
+    margin: 0
   ".year":
     color: "#aaa"
     fontSize: 24
     clear: "none"
+    margin: 0
 
   ".meta h2":
     margin: 0
@@ -712,6 +723,7 @@ style =
     clear: "none"
     fontSize: 24
     fontWeight: "normal"
+    marginBottom: 4
 
   ".links a.fa":
     width: "44px"
@@ -724,6 +736,8 @@ style =
 
   ".tags":
     lineHeight: "27px"
+    marginBottom: 8
+
 
   ".tags span":
     whiteSpace: "nowrap"
@@ -732,7 +746,10 @@ style =
     color: "#444"
     backgroundColor: "#e8e8e8"
     border: "1px solid #d8d8d8"
-   
+ 
+  ".desc":
+    marginBottom: 12
+
   ".links":
     wordSpacing: "8px"
 
@@ -794,6 +811,8 @@ do ->
       html5: awesome url, "html5", "#c42"
       slides: awesome url, "desktop", "#482"
       github: awesome "https://github.com/#{url}", "github-square", "#333"
+      address: awesome url, "envelope", "#ffc"
+      tel: awesome url, "phone", "#363"
       gamecrafter: awesome "https://thegamecrafter.com/games/#{url}", "shopping-cart", "#999"
       online: awesome url, "cloud", "#ccf"
       play: awesome "https://play.google.com/store/apps/details?id=" + url, "android", "#A4C639"
@@ -802,7 +821,7 @@ do ->
       email: ["a.fa", {style:{color:"#336"},href:url}, "@"]
       cv: text url, "CV", "#933"
     }[name] || ["div", "missing:", name]
-  
+
 
   #{{{3 tags
   genTags = (entry) ->
@@ -834,7 +853,7 @@ do ->
           date
           ["h2", {itemprop:"name", style:{verticalAlign:"top"}}, entry.name]
           ["div.tags", ""].concat genTags(entry)
-          ["div.desc", {itemprop:"description"}, entry.desc]
+          ["div.desc", {itemprop:"description"}, ["rawhtml", entry.desc]]
           ["div.links", ""].concat links
         ]
       ]
