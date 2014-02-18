@@ -1,26 +1,28 @@
+#!/usr/bin/env coffee
 jsonml2html = require "jsonml2html"
 
 # {{{1 list of applications
+# {{{2 actual list
 apps =
   rasmuserik:
-    name: "Rasmus Erik"
+    name: "Rasmus Erik Voel Jensen"
     desc: "Contact info, and more about the creator of these things"
     icon: "rasmuserik.jpg"
-    type: "writings"
     tags: [ "computer scientist" ]
     links:
       html5: "/rasmuserik.html"
+      github: ""
 
   "bibtek-konf":
     name: "BibTekKonf BibGraph"
-    icon: "bibgraph.png"
+    iconx: "bibgraph.png"
     title: "Slides: BibTekKonf BibGraph"
     date: "2013-10-26"
     tags: [ "slides-tech-talks", "talk", "presentation", "bibtekkonf", "bibgraph" ]
     desc: "Slides fra BibTekKonf præsentation om visualisering ud fra ADHL-data"
     type: "presentation"
     links:
-      html5: "/slides/bibtekkonf2013-bibgraph"
+      slides: "/slides/bibtekkonf2013-bibgraph"
 
   "music-131023":
     music: "131023"
@@ -72,7 +74,8 @@ apps =
     desc: "Slides for presentation at CopenhagenJS on various summer hacks: BibGraph and Skolevej"
     type: "presentation"
     links:
-      html5: "/slides/cphjs2013-summer-hacks"
+      slides: "/slides/cphjs2013-summer-hacks"
+      github: "talk-copenhagenjs-summerhacks"
 
   bibgraph:
     name: "BibGraph"
@@ -82,9 +85,9 @@ apps =
     desc: "Visualisation of relations between books and other library materials, generated from the ADHL statistics about danish co-loans"
     type: "apps"
     links:
-      github: "rasmuserik/DBCDK/bibgraph"
       html5: "http://dbc-bibgraph.solsort.com/"
       online: "http://labs.dbc.dk/bibgraph"
+      github: "rasmuserik/DBCDK/bibgraph"
 
   skolevej:
     name: "Skolevej"
@@ -95,18 +98,17 @@ apps =
     type: "apps"
     links:
       github: "rasmuserik/app-skolevej"
-      html5: "http://skolevej.solsort.com/"
 
   html5cnug:
     title: "Slides: HTML5"
     date: "2013-05-22"
     icon: "html5cnug.png"
-    tags: [ "slides-tech-talks", "presentation", "html5", "cnug" ]
+    tags: ["slides-tech-talks", "presentation", "html5", "cnug"]
     desc: "Slides for presentation done at CNUG.dk"
     time: "3 days study/preparation for presentation, 1 hour presentation"
     type: "presentation"
     links:
-      html5: "/slides/cnug2013-html5/"
+      github: "talk-cnug-html5-2013"
 
   speeding:
     state: "production"
@@ -114,15 +116,15 @@ apps =
     name: "Vores fart - visualisering"
     icon: "speeding.png"
     title: "Speeding visualisation"
-    tags: [ "widgets", "coffeescript", "hammertime", "visualisation" ]
+    tags: ["widgets", "coffeescript", "hammertime", "visualisation"]
     date: "2013-05-15"
     desc: "Visualiseringskode for vejdirektoratet - layout baseret på tidligere udgave"
     time: "5 hours trying to optimise original outsourced code, then 10 hours reimplementing it"
     type: "apps"
     links:
-      github: "rasmuserik/app-speeding"
       html5: "http://speeding.solsort.com"
       online: "http://www.vejdirektoratet.dk/da/trafik/planl%C3%A6g%20turen/voresfart/sider/default.aspx"
+      github: "rasmuserik/app-speeding"
 
   "productivity-hacks":
     name: "Productivity Hacks"
@@ -140,14 +142,12 @@ apps =
     icon: "dragimation.png"
     tags: [ "widgets", "coffeescript", "hammertime", "visualisation", "html5" ]
     desc: "Dragging animation special effect - as requested for the development of legoland billund resort web page."
-    online:
-      "/dragimation": "app-dragimation/public"
-
     type: "apps"
     links:
-      github: "rasmuserik/app-dragimation"
       html5: "http://dragimation.solsort.com"
-      online: [ "http://www.legolandbillundresort.com", "/dragimation" ] 
+      online: "http://www.legolandbillundresort.com",
+      github: "rasmuserik/app-dragimation"
+
   "pricing-scale":
     name: "Pricing scale"
     desc: "Tool for pricing and estimating cost."
@@ -161,23 +161,25 @@ apps =
   tsartnoc:
     name: "Tsar Tnoc"
     desc: "Result of a ludum dare hackathon."
-    icon: "tsartnoc.png"
+    icon: "tsar-tnoc.png"
     date: "2012-07-15"
     type: "apps"
-    tags: [ "apps", "" ]
+    tags: [ "app", "game", "ludum dare", "hackathon" ]
     links:
       html5: "/tsartnoc"
+      github: "contrasts"
 
   eurocards:
     name: "EuroCards"
     tags: [ "cardgames", "card game" ]
-    icon: "eurocards"
+    icon: "eurocards.jpg"
     desc: "top-trump like card game for learning facts about european countries"
     date: "2012-06-20"
     type: "physical"
     links:
+      text: "/notes/eurocards"
+      gamecrafter: "EuroCards"
       github: "rasmuserik/writings"
-      html5: "/notes/eurocards"
 
   blobshot:
     name: "BlobShot"
@@ -199,6 +201,7 @@ apps =
     tags: [ "apps", "" ]
     links:
       html5: "http://old.solsort.com/#combigame"
+      play: "com.solsort.combigame"
 
   "presentation-evaluation":
     name: "Presentation evaluation notes"
@@ -210,18 +213,6 @@ apps =
       github: "rasmuserik/writings"
       html5: "/notes/presentation-evaluation"
 
-  dkcities:
-    name: "dkcities"
-    title: "Danske Byer"
-    desc: "Learning \"game\" for the geography of Denmark."
-    date: "2011-08"
-    type: "apps"
-    icon: "dkcities.png"
-    tags: [ "apps", "" ]
-    links:
-      github: "rasmuserik/dkcities"
-      html5: "/danske-byer"
-
   notescore:
     name: "NoteScore"
     desc: "Note learning app"
@@ -231,8 +222,22 @@ apps =
     icon: "notescore.png"
     tags: [ "apps", "" ]
     links:
-      github: "rasmuserik/notescore"
       html5: "/notescore"
+      play: "dk.solsort.notescore"
+      github: "rasmuserik/notescore"
+
+  dkcities:
+    name: "dkcities"
+    title: "Danske Byer"
+    desc: "Learning \"game\" for the geography of Denmark."
+    date: "2011-08"
+    type: "apps"
+    icon: "dkcities.png"
+    tags: [ "apps", "" ]
+    links:
+      html5: "/danske-byer"
+      play: "com.solsort.dkcities"
+      github: "rasmuserik/dkcities"
 
   cuteengine:
     name: "CuteEngine"
@@ -243,8 +248,8 @@ apps =
     icon: "cuteengine.png"
     tags: [ "protoapps", "" ]
     links:
-      github: "rasmuserik/planetcute"
       html5: "/cute-engine"
+      github: "rasmuserik/planetcute"
 
   "a-tango-unfinished":
     music: "070113-tango"
@@ -604,6 +609,12 @@ apps =
     tags: [ "demo", "" ]
     links: {}
 
+#{{{2 processing
+
+for key, val of apps
+  val.date ?= ""
+  val.links ?= []
+
 #{{{1 generate index.html
 #{{{2 style
 style =
@@ -647,40 +658,62 @@ style =
     fontSize: "24px"
     wordSpacing: "24px"
 
-  ".items a":
+  ".items span":
     whiteSpace: "nowrap"
     wordSpacing: "0px"
 
   #{{{3 entries
   ".entries":
     textAlign: "center"
+    wordSpacing: 0
 
-  ".entries > div":
-    verticalAlign: "top"
+  ".entry":
     display: "inline-block"
-    margin: "40px 0 40px 0"
+    marginBottom: 60
+    marginLeft: 20
+    marginRight: 20
+    wordSpacing: 0
 
-  ".entries > div > div":
-    display: "inline-block"
+  ".icon":
+    width: 110
+    height: 110
+    margin: "5px 15px 5px 15px"
     verticalAlign: "top"
-    width: "310px"
-    margin: "0 5px 0 5px"
+    borderRadius: 100
+    boxShadow: "1px 1px 3px rgba(0,0,0,1)"
 
-  ".left":
-    textAlign: "right"
-
-  ".left img": { float: "right; border: 1px solid #333; border-radius: 130px; width: 130px; height: 130px; margin: 0 0 -10px 10px;"}
-  ".published": { display: "inline-block; clear: none;"}
-  ".date": { color: "#333; font-size: 16px; clear: none;"}
-  ".year": { color: "#999; font-size: 24px; clear: none;"}
-  ".right":
-    width: "320px"
+  ".meta":
+    verticalAlign: "top"
     textAlign: "left"
+    display: "inline-block"
+    width: 300
+    margin: "0 -10px 0 -10px"
 
 
-  h2: { margin: "0; padding: 0; font-weight: normal; font-size: 24px; text-align: left;"}
+  ".date":
+    padding: 0
+    margin: 0
+    float: "right"
+    verticalAlign: "top"
+    textAlign: "right"
+    display: "inline-block"
+  ".monthdate":
+    color: "#555"
+    fontSize: 16
+    clear: "none"
+  ".year":
+    color: "#aaa"
+    fontSize: 24
+    clear: "none"
 
-  ".right a.fa":
+  ".meta h2":
+    margin: 0
+    padding: 0
+    clear: "none"
+    fontSize: 24
+    fontWeight: "normal"
+
+  ".links a.fa":
     width: "44px"
     height: "44px"
     textAlign: "center"
@@ -688,23 +721,6 @@ style =
     color: "#333"
     fontSize: "44px"
     textShadow: "1px 1px 3px rgba(0,0,0,1)"
-
-  ".linkbox":
-    display: "inline-block"
-    height: "26px"
-    verticalAlign: "bottom"
-    marginBottom: "5px"
-    borderRadius: "10px"
-    fontSize: "20px"
-    fontWeight: "bold"
-    textDecoration: "none"
-    padding: "1px 3px 1px 2px"
-    border: "4px solid"
-    textShadow: "1px 1px 3px rgba(0,0,0,1)"
-    boxShadow: "1px 1px 3px rgba(0,0,0,1)"
-
-  ".right div":
-    marginTop: "6px"
 
   ".tags":
     lineHeight: "27px"
@@ -719,6 +735,20 @@ style =
    
   ".links":
     wordSpacing: "8px"
+
+  ".links .linkbox":
+    display: "inline-block"
+    height: "26px"
+    verticalAlign: "bottom"
+    marginBottom: "5px"
+    borderRadius: "10px"
+    fontSize: "20px"
+    fontWeight: "bold"
+    textDecoration: "none"
+    padding: "1px 3px 1px 2px"
+    border: "4px solid"
+    textShadow: "1px 1px 3px rgba(0,0,0,1)"
+    boxShadow: "1px 1px 3px rgba(0,0,0,1)"
 
 #{{{3 Convert to text
 style = ("#{key}{#{jsonml2html.obj2style val}}" for key, val of style).join ""
@@ -737,21 +767,89 @@ do ->
     items.push ["span", item]
     items.push " "
 
+  #{{{3 month names
+  months =
+    "01": "January"
+    "02": "February"
+    "03": "March"
+    "04": "April"
+    "05": "May"
+    "06": "June"
+    "07": "July"
+    "08": "August"
+    "09": "September"
+    "10": "October"
+    "11": "November"
+    "12": "December"
+    "": ""
+
+  #{{{3 link icon
+  linkIcon = (name, url) ->
+    awesome = (url, name, color) ->
+      ["a.fa.fa-#{name}", {style:{color:color},href:url}, ""]
+    text = (url, name, color) ->
+      ["a.linkbox", {style:{color:color},href:url}, name]
+
+    {
+      html5: awesome url, "html5", "#c42"
+      slides: awesome url, "desktop", "#482"
+      github: awesome "https://github.com/#{url}", "github-square", "#333"
+      gamecrafter: awesome "https://thegamecrafter.com/games/#{url}", "shopping-cart", "#999"
+      online: awesome url, "cloud", "#ccf"
+      play: awesome "https://play.google.com/store/apps/details?id=" + url, "android", "#A4C639"
+      appstore: awesome url, "apple", "#ccc"
+      text: awesome url, "file-text-o", "#876"
+      email: ["a.fa", {style:{color:"#336"},href:url}, "@"]
+      cv: text url, "CV", "#933"
+    }[name] || ["div", "missing:", name]
+  
+
+  #{{{3 tags
+  genTags = (entry) ->
+    result = []
+    for tag in entry.tags
+      result.push " "
+      result.push ["span", tag]
+    result
+
+  #{{{3 create entries
   entries = []
   for id, entry of apps
     if entry.icon
-      entries.push ["div", {itemscope: "itemscope", itemtype: "http://schema.org/CreativeWork"}
-        ["div.left"
-          ["img", {itemprop: "image", src: "icons/#{entry.icon}"}]]]
+      links = []
+      for type, url of entry.links
+        links.push linkIcon type, url
+        links.push " "
 
+      date = ["div.date", ""]
+      monthday = months[entry.date.slice(5,7)]
+      monthday += " " + +entry.date.slice(8,10) if monthday && entry.date.slice(8,10)
+      date.push ["div.monthday", monthday] if monthday
+      date.push ["div.year", entry.date.slice(0,4)] if entry.date.slice(0,4)
+
+
+      entries.push ["div.entry", {itemscope: "itemscope", itemtype: "http://schema.org/CreativeWork"}
+        ["img.icon", {itemprop: "image", src: "icons/#{entry.icon}"}]
+        ["div.meta"
+          date
+          ["h2", {itemprop:"name", style:{verticalAlign:"top"}}, entry.name]
+          ["div.tags", ""].concat genTags(entry)
+          ["div.desc", {itemprop:"description"}, entry.desc]
+          ["div.links", ""].concat links
+        ]
+      ]
+      entries.push " "
+
+
+  #{{{3 body
   body = ["body"
     ["h1"
       ["img", {src:"icons/solsort.png"}]
       " "
       ["span", "solsort.com ApS"]]
     ["div.items"].concat items
-    ["div.entries"].concat entries
     ["hr"]
+    ["div.entries"].concat entries
   ]
 
 
@@ -769,9 +867,9 @@ head = ["head"
 
 #{{{2 html
 html = "<!DOCTYPE html>" + jsonml2html ["html", head, body]
-console.log html
 
-(require "fs").writeFile "t.html", html
+console.log "writing index.html"
+(require "fs").writeFile "index.html", html
 
 
 # {{{1 import old list
