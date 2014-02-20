@@ -157,9 +157,8 @@ apps =
     desc: "Dragging animation special effect - as requested for the development of legoland billund resort web page."
     type: "apps"
     links:
-      demo: "http://dragimation.solsort.com"
-      www: "http://www.legolandbillundresort.com",
-      github: "rasmuserik/app-dragimation"
+      demo_www: "http://dragimation.solsort.com"
+      www: "http://www.legolandbillundresort.com"
 
   "pricing-scale":
     icon: "notes.jpg"
@@ -179,8 +178,7 @@ apps =
     type: "apps"
     tags:  "app, game, ludum dare, hackathon"
     links:
-      html5: "/tsartnoc"
-      github: "contrasts"
+      web_app: "/tsartnoc/"
 
   eurocards:
     name: "EuroCards"
@@ -192,7 +190,6 @@ apps =
     links:
       about: "/notes/eurocards"
       game_crafter: "EuroCards"
-      github: "rasmuserik/writings"
 
   blobshot:
     name: "BlobShot"
@@ -202,8 +199,7 @@ apps =
     type: "apps"
     tags:  "apps"
     links:
-      html5: "http://blobshot.solsort.com"
-      online: "http://old.solsort.com/#blobshot"
+      web_app: "http://blobshot.solsort.com"
 
   combigame:
     name: "CombiGame"
@@ -215,7 +211,7 @@ apps =
     links:
       "web_app": "http://old.solsort.com/#combigame"
       "android_app": "com.solsort.combigame"
-      iOS_app: "com.solsort.combigame"
+      #iOS_app: "com.solsort.combigame"
 
   "presentation-evaluation":
     icon: "notes.jpg"
@@ -235,22 +231,19 @@ apps =
     icon: "notescore.png"
     tags:  "apps"
     links:
-      html5: "/notescore"
-      android: "dk.solsort.notescore"
-      github: "rasmuserik/notescore"
+      web_app: "/notescore"
+      android_app: "dk.solsort.notescore"
 
   dkcities:
-    name: "dkcities"
-    title: "Danske Byer"
+    name: "Danske Byer"
     desc: "Learning \"game\" for the geography of Denmark."
     date: "2011-08"
     type: "apps"
     icon: "dkcities.png"
     tags:  "apps"
     links:
-      html5: "/danske-byer"
-      play: "com.solsort.dkcities"
-      github: "rasmuserik/dkcities"
+      web_app: "/danske-byer"
+      android_app: "com.solsort.dkcities"
 
   cuteengine:
     name: "CuteEngine"
@@ -261,8 +254,7 @@ apps =
     icon: "cuteengine.png"
     tags:  "protoapps"
     links:
-      html5: "/cute-engine"
-      github: "rasmuserik/planetcute"
+      web_app: "/cute-engine"
 
   "a-tango-unfinished":
     music: "070113-tango"
