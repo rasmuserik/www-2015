@@ -98,7 +98,6 @@ apps =
     icon: "bibgraph.png"
     tags: "visualisation, widget, dbc, adhl, d3, graph"
     desc: "Visualisation of relations between books and other library materials, generated from the ADHL statistics about danish <nobr>co-loans</nobr>"
-    type: "apps"
     links:
       demo_www: "http://dbc-bibgraph.solsort.com/"
       www: "http://labs.dbc.dk/bibgraph"
@@ -107,10 +106,9 @@ apps =
   skolevej:
     name: "Skolevej"
     date: "2013-07-08"
-    tags:  "protoapps, hammertime, gis, leaflet, openstreetmap"
+    tags: "widget, prototype, hammertime, gis, leaflet, openstreetmap"
     desc: "Demo/frontend of editor for safe school routes - made for Hammertime / Odense Kommune"
     icon: "skolevej.png"
-    type: "apps"
     links: {}
 
   html5cnug:
@@ -134,7 +132,6 @@ apps =
     date: "2013-05-15"
     desc: "Visualiseringskode for vejdirektoratet - layout baseret på tidligere udgave"
     time: "5 hours trying to optimise original outsourced code, then 10 hours reimplementing it"
-    type: "apps"
     links:
       demo_www: "http://speeding.solsort.com"
       www: "http://www.vejdirektoratet.dk/da/trafik/planl%C3%A6g%20turen/voresfart/sider/default.aspx"
@@ -155,7 +152,6 @@ apps =
     icon: "dragimation.png"
     tags:  "widgets, hammertime, visualisation, html5"
     desc: "Dragging animation special effect - as requested for the development of legoland billund resort web page."
-    type: "apps"
     links:
       demo_www: "http://dragimation.solsort.com"
       www: "http://www.legolandbillundresort.com"
@@ -175,7 +171,6 @@ apps =
     desc: "Result of a ludum dare hackathon."
     icon: "tsar-tnoc.png"
     date: "2012-07-15"
-    type: "apps"
     tags:  "app, game, ludum dare, hackathon"
     links:
       web_app: "/tsartnoc/"
@@ -196,8 +191,7 @@ apps =
     desc: "Result of the 5apps hackathon."
     date: "2012-05-06"
     icon: "blobshot.png"
-    type: "apps"
-    tags:  "apps"
+    tags: "app, game, hackathon"
     links:
       web_app: "http://blobshot.solsort.com"
 
@@ -205,9 +199,8 @@ apps =
     name: "CombiGame"
     desc: "Logical game, inspired by a card game"
     date: "2012-03-26"
-    type: "apps"
     icon: "combigame.png"
-    tags:  "apps"
+    tags:  "app, game"
     links:
       "web_app": "http://old.solsort.com/#combigame"
       "android_app": "https://play.google.com/store/apps/details?id=com.solsort.combigame"
@@ -227,9 +220,8 @@ apps =
     desc: "Note learning app"
     android: "dk.solsort.notescore"
     date: "2011-08"
-    type: "apps"
     icon: "notescore.png"
-    tags:  "apps"
+    tags: "app, edutainment, music"
     links:
       web_app: "/notescore"
       android_app: "https://play.google.com/store/apps/details?id=dk.solsort.notescore"
@@ -238,9 +230,8 @@ apps =
     name: "Danske Byer"
     desc: "Learning \"game\" for the geography of Denmark."
     date: "2011-08"
-    type: "apps"
     icon: "dkcities.png"
-    tags:  "apps"
+    tags: "app, edutainment"
     links:
       web_app: "/danske-byer"
       android_app: "https://play.google.com/store/apps/details?id=com.rasmuserik.dkcities"
@@ -250,9 +241,8 @@ apps =
     desc: "Game engine experiment"
     date: "2011-08"
     time: "3 days"
-    type: "apps"
+    tags: "app, prototype, unfinished, game"
     icon: "cuteengine.png"
-    tags:  "protoapps"
     links:
       web_app: "/cute-engine"
 
@@ -749,20 +739,20 @@ style =
     wordSpacing: "0px"
     display: "inline-block"
     textAlign: "center"
-    minWidth: 26
-    height: 26
+    minWidth: 36
+    height: 35
     verticalAlign: "bottom"
     marginBottom: "5px"
-    borderRadius: "10px"
+    borderRadius: 40
     fontSize: "20px"
     fontWeight: "normal"
     textDecoration: "none"
-    padding: 4
+    padding: "9px 4px 0px 4px"
     border: "2px solid"
     boxShadow: "2px 2px 6px rgba(0,0,0,0.3)"
   ".links .small":
-    paddingTop: 0
-    height: 30
+    padding: "6px 4px 0px 4px"
+    height: 38
     fontSize: 14
     fontWeight: "bold"
 
