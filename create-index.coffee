@@ -189,7 +189,7 @@ apps =
     type: "physical"
     links:
       about: "/notes/eurocards"
-      game_crafter: "EuroCards"
+      game_crafter: "https://www.thegamecrafter.com/games/EuroCards"
 
   blobshot:
     name: "BlobShot"
@@ -210,7 +210,7 @@ apps =
     tags:  "apps"
     links:
       "web_app": "http://old.solsort.com/#combigame"
-      "android_app": "com.solsort.combigame"
+      "android_app": "https://play.google.com/store/apps/details?id=com.solsort.combigame"
       #iOS_app: "com.solsort.combigame"
 
   "presentation-evaluation":
@@ -232,7 +232,7 @@ apps =
     tags:  "apps"
     links:
       web_app: "/notescore"
-      android_app: "dk.solsort.notescore"
+      android_app: "https://play.google.com/store/apps/details?id=dk.solsort.notescore"
 
   dkcities:
     name: "Danske Byer"
@@ -243,7 +243,7 @@ apps =
     tags:  "apps"
     links:
       web_app: "/danske-byer"
-      android_app: "com.solsort.dkcities"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.dkcities"
 
   cuteengine:
     name: "CuteEngine"
