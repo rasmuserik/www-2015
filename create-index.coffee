@@ -9,11 +9,28 @@ apps =
     desc: "Creator of these things.<br>Feel free to contact."
     icon: "rasmuserik.jpg"
     tags:  "computer scientist"
-    type: "person"
+    kind: "Person"
     links:
-      "@": "javascript:window.location.href='mai\\u006cto:rasmuserik\\x40solsort.com'"
-      tel: "tel:60703081"
+      #about: "rasmuserik.html"
+      "email": "javascript:window.location.href='mai\\u006cto:rasmuserik\\x40solsort.com'"
+      sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
+
+  "onetwo360":
+    name: "360º Viewer"
+    #icon: "missing"
+    date: "2014-02"
+    tags:  "widget, onetwo360.com, hammertime"
+    desc: ""
+    links: []
+
+  "uccorg":
+    name: "Backend for <nobr>UCC-organismen</nobr>"
+    #icon: "missing"
+    date: "2014-01"
+    tags:  ""
+    desc: ""
+    links: []
 
   "bibtek-konf":
     name: "BibTekKonf presentation"
@@ -48,7 +65,7 @@ apps =
       web_app: "/hack4dk/quiz/"
 
   "hack4dk-image-recognition":
-    name: "Simple image recognition"
+    name: "Simple Image Recognition"
     date: "2013-09-28"
     icon: "h4dk-imrec.jpg"
     desc: "Hack4dk hackathon hack: pure javascript to distinguish between differen kind of images from \"politiets registerblade\" open data set. Just some utility code needed by another team"
@@ -57,11 +74,11 @@ apps =
       demo_www: "/hack4dk/imextract/"
 
   "hack4dk-wikipedia-graph-visualisation":
+    name: "Wikipedia Link&nbsp;Graph"
     date: "2013-09-28"
     desc: "Hack4dk hackathon hack: graph visualisation from wikipedia"
     icon: "h4dk-wiki-graph.png"
-    type: "apps"
-    tags:  "demo"
+    tags:  "visualisation, prototype, d3"
     links:
       demo_www: "/hack4dk/d3wikipedia/?Open+data"
 
@@ -70,9 +87,8 @@ apps =
     title: "Slides: Summer Hacks"
     icon: "summer-hacks.png"
     date: "2013-08-14"
-    tags:  "slides-tech-talks, copenhagenjs, talk, presentation, bibgraph, skolevej"
+    tags:  "slides, copenhagenjs, presentation, bibgraph, skolevej"
     desc: "Slides for presentation at CopenhagenJS on various summer hacks: BibGraph and Skolevej"
-    type: "presentation"
     links:
       slides: "/slides/cphjs2013-summer-hacks"
 
@@ -80,7 +96,7 @@ apps =
     name: "BibGraph"
     date: "2013-08-02"
     icon: "bibgraph.png"
-    tags:  "widgets, dbc, adhl, d3, visualisation, graph"
+    tags: "visualisation, widget, dbc, adhl, d3, graph"
     desc: "Visualisation of relations between books and other library materials, generated from the ADHL statistics about danish <nobr>co-loans</nobr>"
     type: "apps"
     links:
@@ -95,8 +111,7 @@ apps =
     desc: "Demo/frontend of editor for safe school routes - made for Hammertime / Odense Kommune"
     icon: "skolevej.png"
     type: "apps"
-    links:
-      git_hub: "rasmuserik/app-skolevej"
+    links: {}
 
   html5cnug:
     title: "Slides: HTML5"
@@ -107,7 +122,7 @@ apps =
     time: "3 days study/preparation for presentation, 1 hour presentation"
     type: "presentation"
     links:
-      github: "talk-cnug-html5-2013"
+      slides: "slides/talk-html5-2013/cnug2013-slides.html#/"
 
   speeding:
     state: "production"
@@ -125,14 +140,14 @@ apps =
       www: "http://www.vejdirektoratet.dk/da/trafik/planl%C3%A6g%20turen/voresfart/sider/default.aspx"
 
   "productivity-hacks":
+    icon: "notes.jpg"
     name: "Productivity Hacks"
     desc: "Notes for a presentation on productivity hacks. Keywords of my aproaches to handle the world."
     date: "2013-04-30"
     type: "writings"
     tags:  "notes"
     links:
-      txt: "rasmuserik/writings"
-      html5: "/notes/productivity-hacks"
+      notes: "/notes/productivity-hacks"
 
   dragimation:
     name: "Dragimation"
@@ -147,14 +162,14 @@ apps =
       github: "rasmuserik/app-dragimation"
 
   "pricing-scale":
+    icon: "notes.jpg"
     name: "Pricing scale"
     desc: "Tool for pricing and estimating cost."
     date: "2013"
     type: "writings"
     tags:  "notes"
     links:
-      github: "rasmuserik/writings"
-      html5: "/notes/pricing-scale"
+      notes: "/notes/pricing-scale"
 
   tsartnoc:
     name: "Tsar Tnoc"
@@ -175,7 +190,7 @@ apps =
     date: "2012-06-20"
     type: "physical"
     links:
-      text: "/notes/eurocards"
+      about: "/notes/eurocards"
       game_crafter: "EuroCards"
       github: "rasmuserik/writings"
 
@@ -198,19 +213,18 @@ apps =
     icon: "combigame.png"
     tags:  "apps"
     links:
-      html5: "http://old.solsort.com/#combigame"
-      "app for_android": "com.solsort.combigame"
+      "web_app": "http://old.solsort.com/#combigame"
+      "android_app": "com.solsort.combigame"
       iOS_app: "com.solsort.combigame"
 
   "presentation-evaluation":
+    icon: "notes.jpg"
     name: "Presentation evaluation notes"
     desc: "Checklist / notes for giving feedback on presentations. Useful for Toastmasters and similar."
     date: "2012-03-18"
-    type: "writings"
-    tags:  "notes"
+    tags: "notes, toastmasters, evaluation"
     links:
-      github: "rasmuserik/writings"
-      html5: "/notes/presentation-evaluation"
+      notes: "/notes/presentation-evaluation"
 
   notescore:
     name: "NoteScore"
@@ -307,9 +321,8 @@ apps =
     type: "music"
     links: {}
 
-# {{{2 Date missing
-
   skrivetips:
+    icon: "notes.jpg"
     name: "Skrivetips"
     lang: "da"
     desc: "Tips / noter om skrivning, herunder også struktur for videnskabelige rapporter. Tips for effective writing (in Danish)."
@@ -317,8 +330,9 @@ apps =
     type: "writings"
     tags:  "notes"
     links:
-      github: "rasmuserik/writings"
-      html5: "/notes/skrivetips"
+      notes: "/notes/skrivetips"
+
+# {{{2 Date missing
 
   "f1k-brownian":
     desc: "fading random cloudsw generated through brownian noise in 127bytes"
@@ -867,11 +881,11 @@ do ->
       date.push ["div.year", entry.date.slice(0,4)] if entry.date.slice(0,4)
 
 
-      entries.push ["div.entry", {itemscope: "itemscope", itemtype: "http://schema.org/CreativeWork"}
+      entries.push ["div.entry", {itemscope: "itemscope", itemtype: "http://schema.org/#{entry.kind || "CreativeWork"}"}
         ["img.icon", {itemprop: "image", src: "icons/#{entry.icon}"}]
         ["div.meta"
           date
-          ["h2", {itemprop:"name", style:{verticalAlign:"top"}}, entry.name]
+          ["h2", {itemprop:"name", style:{verticalAlign:"top"}}, ["rawhtml",entry.name]]
           ["div.tags", ""].concat genTags(entry)
           ["div.desc", {itemprop:"description"}, ["rawhtml", entry.desc]]
           ["div.links", ""].concat links

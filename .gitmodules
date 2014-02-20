@@ -46,3 +46,6 @@
 [submodule "slides/osd2013-html5"]
 	path = slides/osd2013-html5
 	url = git@github.com:rasmuserik/talk-osd2013-html5.git
+[submodule "slides/talk-html5-2013"]
+	path = slides/talk-html5-2013
+	url = git@github.com:rasmuserik/talk-html5-2013.git
