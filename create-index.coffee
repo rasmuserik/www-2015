@@ -9,21 +9,18 @@ apps =
     desc: "Creator of these things.<br>Feel free to contact."
     icon: "rasmuserik.jpg"
     tags:  "computer scientist"
+    type: "person"
     links:
-      email: ""
-      address: ""
+      "@": "javascript:window.location.href='mai\\u006cto:rasmuserik\\x40solsort.com'"
       tel: "tel:60703081"
-      cv: ""
-      html5: "/rasmuserik.html"
+      git_hub: "https://github.com/rasmuserik"
 
   "bibtek-konf":
-    name: "BibTekKonf BibGraph"
-    iconx: "bibgraph.png"
-    title: "Slides: BibTekKonf BibGraph"
+    name: "BibTekKonf presentation"
+    icon: "bibtek-konf.png"
     date: "2013-10-26"
-    tags:  "slides-tech-talks, talk, presentation, bibtekkonf, bibgraph"
-    desc: "Slides fra BibTekKonf præsentation om visualisering ud fra ADHL-data"
-    type: "presentation"
+    tags:  "slides, done, presentation, bibtekkonf, bibgraph, dbc"
+    desc: "BibTekKonf præsentation om visua&shy;lisering ud fra DBCs \"Andre Der Har Lånt\"-data"
     links:
       slides: "/slides/bibtekkonf2013-bibgraph"
 
@@ -41,32 +38,32 @@ apps =
     type: "music"
     links: {}
 
+  "hack4dk-art-quiz":
+    name: "Art Quiz"
+    date: "2013-09-28"
+    desc: "Hack4dk hackathon hack: touch friendly art quiz using open images from <nobr>Statens Museum for Kunst</nobr>"
+    icon: "h4dk-artquiz.jpg"
+    tags:  "app, prototype, hack4dk, touch friendly, dynamic layout"
+    links:
+      web_app: "/hack4dk/quiz/"
+
+  "hack4dk-image-recognition":
+    name: "Simple image recognition"
+    date: "2013-09-28"
+    icon: "h4dk-imrec.jpg"
+    desc: "Hack4dk hackathon hack: pure javascript to distinguish between differen kind of images from \"politiets registerblade\" open data set. Just some utility code needed by another team"
+    tags:  "code, utility"
+    links:
+      demo_www: "/hack4dk/imextract/"
+
   "hack4dk-wikipedia-graph-visualisation":
     date: "2013-09-28"
     desc: "Hack4dk hackathon hack: graph visualisation from wikipedia"
+    icon: "h4dk-wiki-graph.png"
     type: "apps"
     tags:  "demo"
     links:
-      github: "rasmuserik/hack4dk"
-      html5: "/hack4dk/d3wikipedia?Open+data"
-
-  "hack4dk-image-recognition":
-    date: "2013-09-28"
-    desc: "Hack4dk hackathon hack: pure javascript destinction between differen kind of images. (utility code needed by another team)"
-    type: "apps"
-    tags:  "demo"
-    links:
-      github: "rasmuserik/hack4dk"
-      html5: "/hack4dk/imextract"
-
-  "hack4dk-art-quiz":
-    date: "2013-09-28"
-    desc: "Hack4dk hackathon hack: art quiz"
-    type: "apps"
-    tags:  "apps"
-    links:
-      github: "rasmuserik/hack4dk"
-      html5: "/hack4dk/quiz"
+      demo_www: "/hack4dk/d3wikipedia/?Open+data"
 
   "summer-hacks":
     name: "Summer Hacks"
@@ -78,19 +75,18 @@ apps =
     type: "presentation"
     links:
       slides: "/slides/cphjs2013-summer-hacks"
-      github: "talk-copenhagenjs-summerhacks"
 
   bibgraph:
     name: "BibGraph"
     date: "2013-08-02"
     icon: "bibgraph.png"
     tags:  "widgets, dbc, adhl, d3, visualisation, graph"
-    desc: "Visualisation of relations between books and other library materials, generated from the ADHL statistics about danish co-loans"
+    desc: "Visualisation of relations between books and other library materials, generated from the ADHL statistics about danish <nobr>co-loans</nobr>"
     type: "apps"
     links:
-      html5: "http://dbc-bibgraph.solsort.com/"
-      online: "http://labs.dbc.dk/bibgraph"
-      github: "rasmuserik/DBCDK/bibgraph"
+      demo_www: "http://dbc-bibgraph.solsort.com/"
+      www: "http://labs.dbc.dk/bibgraph"
+      #github: "rasmuserik/DBCDK/bibgraph"
 
   skolevej:
     name: "Skolevej"
@@ -100,7 +96,7 @@ apps =
     icon: "skolevej.png"
     type: "apps"
     links:
-      github: "rasmuserik/app-skolevej"
+      git_hub: "rasmuserik/app-skolevej"
 
   html5cnug:
     title: "Slides: HTML5"
@@ -125,9 +121,8 @@ apps =
     time: "5 hours trying to optimise original outsourced code, then 10 hours reimplementing it"
     type: "apps"
     links:
-      html5: "http://speeding.solsort.com"
-      online: "http://www.vejdirektoratet.dk/da/trafik/planl%C3%A6g%20turen/voresfart/sider/default.aspx"
-      github: "rasmuserik/app-speeding"
+      demo_www: "http://speeding.solsort.com"
+      www: "http://www.vejdirektoratet.dk/da/trafik/planl%C3%A6g%20turen/voresfart/sider/default.aspx"
 
   "productivity-hacks":
     name: "Productivity Hacks"
@@ -136,7 +131,7 @@ apps =
     type: "writings"
     tags:  "notes"
     links:
-      github: "rasmuserik/writings"
+      txt: "rasmuserik/writings"
       html5: "/notes/productivity-hacks"
 
   dragimation:
@@ -147,8 +142,8 @@ apps =
     desc: "Dragging animation special effect - as requested for the development of legoland billund resort web page."
     type: "apps"
     links:
-      html5: "http://dragimation.solsort.com"
-      online: "http://www.legolandbillundresort.com",
+      demo: "http://dragimation.solsort.com"
+      www: "http://www.legolandbillundresort.com",
       github: "rasmuserik/app-dragimation"
 
   "pricing-scale":
@@ -181,7 +176,7 @@ apps =
     type: "physical"
     links:
       text: "/notes/eurocards"
-      gamecrafter: "EuroCards"
+      game_crafter: "EuroCards"
       github: "rasmuserik/writings"
 
   blobshot:
@@ -204,7 +199,8 @@ apps =
     tags:  "apps"
     links:
       html5: "http://old.solsort.com/#combigame"
-      play: "com.solsort.combigame"
+      "app for_android": "com.solsort.combigame"
+      iOS_app: "com.solsort.combigame"
 
   "presentation-evaluation":
     name: "Presentation evaluation notes"
@@ -226,7 +222,7 @@ apps =
     tags:  "apps"
     links:
       html5: "/notescore"
-      play: "dk.solsort.notescore"
+      android: "dk.solsort.notescore"
       github: "rasmuserik/notescore"
 
   dkcities:
@@ -725,19 +721,9 @@ style =
     fontWeight: "normal"
     marginBottom: 4
 
-  ".links a.fa":
-    width: "44px"
-    height: "44px"
-    textAlign: "center"
-    textDecoration: "none"
-    color: "#333"
-    fontSize: "44px"
-    textShadow: "1px 1px 3px rgba(0,0,0,1)"
-
   ".tags":
     lineHeight: "27px"
     marginBottom: 8
-
 
   ".tags span":
     whiteSpace: "nowrap"
@@ -754,18 +740,25 @@ style =
     wordSpacing: "8px"
 
   ".links .linkbox":
+    wordSpacing: "0px"
     display: "inline-block"
-    height: "26px"
+    textAlign: "center"
+    minWidth: 26
+    height: 26
     verticalAlign: "bottom"
     marginBottom: "5px"
     borderRadius: "10px"
     fontSize: "20px"
-    fontWeight: "bold"
+    fontWeight: "normal"
     textDecoration: "none"
-    padding: "1px 3px 1px 2px"
-    border: "4px solid"
-    textShadow: "1px 1px 3px rgba(0,0,0,1)"
-    boxShadow: "1px 1px 3px rgba(0,0,0,1)"
+    padding: 4
+    border: "2px solid"
+    boxShadow: "2px 2px 6px rgba(0,0,0,0.3)"
+  ".links .small":
+    paddingTop: 0
+    height: 30
+    fontSize: 14
+    fontWeight: "bold"
 
 #{{{3 Convert to text
 style = ("#{key}{#{jsonml2html.obj2style val}}" for key, val of style).join ""
@@ -822,6 +815,33 @@ do ->
       cv: text url, "CV", "#933"
     }[name] || ["div", "missing:", name]
 
+  strHash = (s) ->
+    hash = 5381
+    i = s.length
+    while i
+      hash = (hash*31 + s.charCodeAt(--i)) | 0
+    prng hash
+    
+  prng = (n) -> (1664525 * n + 1013904223) |0
+  intToColor = (i) -> "#" + ((i & 0xffffff) + 0x1000000).toString(16).slice(1)
+  hashColorLight = (s) -> intToColor 0xe0e0e0 | strHash s
+  hashColorDark = (s) -> intToColor 0x7f7f7f & prng strHash s
+
+
+  linkIcon = (name, url) ->
+    if -1 != name.indexOf "_"
+      ["a.linkbox.small"
+        style: color: hashColorDark name
+        href: url
+      ["rawhtml", name.replace /_/g, "<br>"]]
+    else
+      ["a.linkbox"
+        style: color: hashColorDark name
+        href: url
+      name]
+
+
+
 
   #{{{3 tags
   genTags = (entry) ->
@@ -875,6 +895,7 @@ do ->
 #{{{2 head
 head = ["head"
   ["title", "solsort.com"]
+  ["meta", {"http-equiv": "Content-Type", content: "text/html;charset=UTF-8"}]
   ["meta", {"http-equiv": "X-UA-Compatible", content: "IE=edge,chrome=1"}]
   ["meta"
     name: "viewport"
