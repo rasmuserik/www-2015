@@ -243,7 +243,7 @@ apps =
     tags:  "apps"
     links:
       web_app: "/danske-byer"
-      android_app: "https://play.google.com/store/apps/details?id=com.solsort.dkcities"
+      android_app: "https://play.google.com/store/apps/details?id=com.rasmuserik.dkcities"
 
   cuteengine:
     name: "CuteEngine"
