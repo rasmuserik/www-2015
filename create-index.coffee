@@ -730,7 +730,7 @@ style =
     border: "1px solid #d8d8d8"
  
   ".desc":
-    marginBottom: 12
+    marginBottom: 6
 
   ".links":
     wordSpacing: "8px"
