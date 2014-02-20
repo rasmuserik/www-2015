@@ -11,7 +11,7 @@ apps =
     tags:  "computer scientist"
     kind: "Person"
     links:
-      #about: "rasmuserik.html"
+      about: "rasmuserik.html"
       "email": "javascript:window.location.href='mai\\u006cto:rasmuserik\\x40solsort.com'"
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
