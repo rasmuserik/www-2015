@@ -32,6 +32,15 @@ apps =
     desc: ""
     links: []
 
+  "Parkering i københavn":
+    name: "Parkering i københavn"
+    icon: "kbh-parking.png"
+    date: "2013-02-22"
+    tags: "app, hackathon, open data day, okfn, data.kk.dk, gatesense, iotpeople"
+    desc: "Visualisering af hvor der sandsynligvis er frie parkeringspladser"
+    links:
+      web_app: "kbh-parking/"
+
   "bibtek-konf":
     name: "BibTekKonf presentation"
     icon: "bibtek-konf.png"
