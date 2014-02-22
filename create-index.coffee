@@ -35,7 +35,7 @@ apps =
   "Parkering i københavn":
     name: "Parkering i københavn"
     icon: "kbh-parking.png"
-    date: "2013-02-22"
+    date: "2014-02-22"
     tags: "app, hackathon, open data day, okfn, data.kk.dk, gatesense, iotpeople"
     desc: "Visualisering af hvor der sandsynligvis er frie parkeringspladser"
     links:
