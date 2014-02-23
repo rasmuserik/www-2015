@@ -759,9 +759,10 @@ style =
     padding: "9px 4px 0px 4px"
     border: "2px solid"
     boxShadow: "2px 2px 6px rgba(0,0,0,0.3)"
+
   ".links .small":
-    padding: "6px 4px 0px 4px"
-    height: 38
+    padding: "5px 4px 0px 4px"
+    height: 39
     fontSize: 14
     fontWeight: "bold"
 
