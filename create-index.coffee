@@ -16,22 +16,6 @@ apps =
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
 
-  "onetwo360":
-    name: "360º Viewer"
-    #icon: "missing"
-    date: "2014-02"
-    tags:  "widget, onetwo360.com, hammertime"
-    desc: ""
-    links: []
-
-  "uccorg":
-    name: "Backend for <nobr>UCC-organismen</nobr>"
-    #icon: "missing"
-    date: "2014-01"
-    tags:  ""
-    desc: ""
-    links: []
-
   "Parkering i københavn":
     name: "Parkering i københavn"
     icon: "kbh-parking.png"
@@ -40,6 +24,22 @@ apps =
     desc: "Visualisering af hvor der sandsynligvis er frie parkeringspladser"
     links:
       web_app: "kbh-parking/"
+
+  "onetwo360":
+    name: "360º Viewer"
+    icon: "360-viewer.jpg"
+    date: "2014-02"
+    tags:  "widget, onetwo360.com, hammertime"
+    desc: ""
+    links: []
+
+  "uccorg":
+    name: "Backend for <nobr>UCC-organismen</nobr>"
+    icon: "uccorg.png"
+    date: "2014-01"
+    tags:  ""
+    desc: ""
+    links: []
 
   "bibtek-konf":
     name: "BibTekKonf presentation"
