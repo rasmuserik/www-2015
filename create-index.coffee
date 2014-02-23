@@ -800,26 +800,6 @@ do ->
     "": ""
 
   #{{{3 link icon
-  linkIcon = (name, url) ->
-    awesome = (url, name, color) ->
-      ["a.fa.fa-#{name}", {style:{color:color},href:url}, ""]
-    text = (url, name, color) ->
-      ["a.linkbox", {style:{color:color},href:url}, name]
-
-    {
-      html5: awesome url, "html5", "#c42"
-      slides: awesome url, "desktop", "#482"
-      github: awesome "https://github.com/#{url}", "github-square", "#333"
-      address: awesome url, "envelope", "#ffc"
-      tel: awesome url, "phone", "#363"
-      gamecrafter: awesome "https://thegamecrafter.com/games/#{url}", "shopping-cart", "#999"
-      online: awesome url, "cloud", "#ccf"
-      play: awesome "https://play.google.com/store/apps/details?id=" + url, "android", "#A4C639"
-      appstore: awesome url, "apple", "#ccc"
-      text: awesome url, "file-text-o", "#876"
-      email: ["a.fa", {style:{color:"#336"},href:url}, "@"]
-      cv: text url, "CV", "#933"
-    }[name] || ["div", "missing:", name]
 
   strHash = (s) ->
     hash = 5381
@@ -845,8 +825,6 @@ do ->
         style: color: hashColorDark name
         href: url
       name]
-
-
 
 
   #{{{3 tags
@@ -907,7 +885,6 @@ head = ["head"
     name: "viewport"
     content: "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"]
   ["meta", {name: "format-detection", content: "telephone=no"}]
-  ["link", {rel: "stylesheet", href:"font/awesome/css/font-awesome.min.css"}]
   ["style", ["rawhtml", style]]
 ]
 
