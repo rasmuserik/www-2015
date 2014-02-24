@@ -29,16 +29,16 @@ apps =
     name: "360º Viewer"
     icon: "360-viewer.jpg"
     date: "2014-02"
-    tags:  "widget, onetwo360.com, hammertime"
-    desc: ""
+    tags:  "widget, frontend, onetwo360.com, hammertime"
+    desc: "Viewer for 360º images (pseudo-3d rotateable)"
     links: []
 
   "uccorg":
     name: "Backend for <nobr>UCC-organismen</nobr>"
     icon: "uccorg.png"
     date: "2014-01"
-    tags:  ""
-    desc: ""
+    tags: "backend, ucc, rejseplanen"
+    desc: "Backend for art projekt: processing information from various source, server setup and delivering an API, events, and dashboard"
     links: []
 
   "bibtek-konf":
@@ -121,7 +121,7 @@ apps =
     links: {}
 
   html5cnug:
-    title: "Slides: HTML5"
+    name: "HTML5 - a developer perspective"
     date: "2013-05-22"
     icon: "html5cnug.png"
     tags: "slides-tech-talks, presentation, html5, cnug"
@@ -134,10 +134,9 @@ apps =
   speeding:
     state: "production"
     role: "optimisation / reimplementation to solve performance issue"
-    name: "visualisering"
+    name: "Speeding visualisation"
     icon: "speeding.png"
-    title: "Speeding visualisation"
-    tags: "widgets, hammertime, visualisation"
+    tags: "widgets, hammertime, visualisation, role:optimisation, role:reimplementation"
     date: "2013-05-15"
     desc: "Visualiseringskode for vejdirektoratet - layout baseret på tidligere udgave"
     time: "5 hours trying to optimise original outsourced code, then 10 hours reimplementing it"
