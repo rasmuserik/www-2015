@@ -52,3 +52,6 @@
 [submodule "kbh-parking"]
 	path = kbh-parking
 	url = git@github.com:rasmuserik/kbh-parking.git
+[submodule "circle-flow-graph"]
+	path = circle-flow-graph
+	url = git@github.com:rasmuserik/circle-flow-graph.git

@@ -16,6 +16,16 @@ apps =
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
 
+  "Circle flow graph":
+    name: "Circle flow graph"
+    icon: "circle-flow-graph.png"
+    date: "2014-02-25"
+    tags: "experiment, non-interactive, visualisation, circles"
+    desc: "visual layot experiment for dependency-like graph"
+    links:
+      web_app: "circle-flow-graph"
+
+
   "Parkering i københavn":
     name: "Parkering i københavn"
     icon: "kbh-parking.png"
