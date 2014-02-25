@@ -11,7 +11,7 @@ apps =
     tags:  "computer scientist"
     kind: "Person"
     links:
-      about: "rasmuserik.html"
+      info: "rasmuserik.html"
       "email": "javascript:window.location.href='mai\\u006cto:rasmuserik\\x40solsort.com'"
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
@@ -799,29 +799,17 @@ do ->
     "": ""
 
   #{{{3 link icon
-
-  strHash = (s) ->
-    hash = 5381
-    i = s.length
-    while i
-      hash = (hash*31 + s.charCodeAt(--i)) | 0
-    prng hash
-    
-  prng = (n) -> (1664525 * n + 1013904223) |0
-  intToColor = (i) -> "#" + ((i & 0xffffff) + 0x1000000).toString(16).slice(1)
-  hashColorLight = (s) -> intToColor 0xe0e0e0 | strHash s
-  hashColorDark = (s) -> intToColor 0x7f7f7f & prng strHash s
-
+  hashColor = require "hashcolor"
 
   linkIcon = (name, url) ->
     if -1 != name.indexOf "_"
       ["a.linkbox.small"
-        style: color: hashColorDark name
+        style: color: hashColor.dark name
         href: url
       ["rawhtml", name.replace /_/g, "<br>"]]
     else
       ["a.linkbox"
-        style: color: hashColorDark name
+        style: color: hashColor.dark name
         href: url
       name]
 
@@ -888,7 +876,7 @@ head = ["head"
 ]
 
 #{{{2 html
-html = "<!DOCTYPE html>" + jsonml2html ["html", head, body]
+html = "<!DOCTYPE html>" + jsonml2html.toString ["html", head, body]
 
 console.log "writing index.html"
 (require "fs").writeFile "index.html", html

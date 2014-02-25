@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "jsonml2html": "0.0.4"
+    "jsonml2html": "0.0.6",
+    "hashcolor": "0.0.3"
   }
 }
