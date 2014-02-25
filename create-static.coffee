@@ -41,7 +41,8 @@ apps =
     date: "2014-02"
     tags:  "widget, frontend, onetwo360.com, hammertime"
     desc: "Viewer for 360º images (pseudo-3d rotateable)"
-    links: []
+    links:
+      demo_www: "360/test"
 
   "uccorg":
     name: "Backend for <nobr>UCC-organismen</nobr>"
@@ -783,7 +784,6 @@ style = "@font-face{font-family:Ubuntu; font-weight:400; src: url(/font/ubuntu-l
 
 #{{{2 entries
 #{{{2 body
-
 
 body = undefined
 do ->
