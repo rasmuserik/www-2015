@@ -809,6 +809,7 @@ do ->
       ["rawhtml", name.replace /_/g, "<br>"]]
     else
       ["a.linkbox"
+        itemprop: "url"
         style: color: hashColor.dark name
         href: url
       name]
@@ -819,7 +820,9 @@ do ->
     result = []
     for tag in entry.tags
       result.push " "
-      result.push ["span", tag]
+      result.push ["span"
+          itemprop: "keywords"
+        tag]
     result
 
   #{{{3 create entries
