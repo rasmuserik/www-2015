@@ -23,7 +23,7 @@ apps =
     tags: "experiment, non-interactive, visualisation, circles"
     desc: "visual layot experiment for dependency-like graph"
     links:
-      web_app: "circle-flow-graph"
+      experiment_www: "circle-flow-graph/"
 
 
   "Parkering i københavn":
