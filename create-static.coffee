@@ -19,7 +19,7 @@ apps =
   "Circle flow graph":
     name: "Circle flow graph"
     icon: "circle-flow-graph.png"
-    date: "2014-02-25"
+    date: "2014-02-26"
     tags: "experiment, non-interactive, visualisation, circles"
     desc: "visual layot experiment for dependency-like graph"
     links:
