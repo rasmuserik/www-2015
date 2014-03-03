@@ -16,6 +16,15 @@ apps =
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
 
+  "single-toush-snake":
+    name: "Interface experiment: snake game"
+    icon: "single-touch-snake.png"
+    date: "2014-03-01"
+    tags: "experiment, game, snake, single afternoon"
+    desc: "one button / binary user input - game experiment to explore this interaction pattern"
+    links:
+      web_app: "single-touch-snake/"
+
   "Circle flow graph":
     name: "Circle flow graph"
     icon: "circle-flow-graph.png"

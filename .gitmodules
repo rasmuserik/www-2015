@@ -55,3 +55,6 @@
 [submodule "circle-flow-graph"]
 	path = circle-flow-graph
 	url = git@github.com:rasmuserik/circle-flow-graph.git
+[submodule "single-touch-snake"]
+	path = single-touch-snake
+	url = git@github.com:rasmuserik/single-touch-snake
