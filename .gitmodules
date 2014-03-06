@@ -58,3 +58,6 @@
 [submodule "single-touch-snake"]
 	path = single-touch-snake
 	url = git@github.com:rasmuserik/single-touch-snake
+[submodule "blobshot"]
+	path = blobshot
+	url = git@github.com:rasmuserik/blobshot.git
