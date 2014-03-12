@@ -44,6 +44,7 @@ apps =
     desc: "Visualisering af hvor der sandsynligvis er frie parkeringspladser"
     links:
       web_app: "kbh-parking/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.kbh_parking"
 
   "onetwo360":
     name: "360º Viewer"
@@ -93,7 +94,9 @@ apps =
     tags:  "app, prototype, hack4dk, touch friendly, dynamic layout"
     links:
       web_app: "/hack4dk/quiz/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.art_quiz"
 
+      
   "hack4dk-image-recognition":
     name: "Simple Image Recognition"
     date: "2013-09-28"
@@ -223,7 +226,8 @@ apps =
     icon: "blobshot.png"
     tags: "app, game, hackathon"
     links:
-      web_app: "http://blobshot.solsort.com"
+      web_app: "blobshot/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.blobshot"
 
   combigame:
     name: "CombiGame"

@@ -61,3 +61,6 @@
 [submodule "morse-code"]
 	path = morse-code
 	url = git@github.com:rasmuserik/morse-code.git
+[submodule "blobshot"]
+	path = blobshot
+	url = git@github.com:rasmuserik/blobshot.git
