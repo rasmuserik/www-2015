@@ -24,6 +24,7 @@ apps =
     desc: "one button / binary user input - game experiment to explore this interaction pattern"
     links:
       web_app: "single-touch-snake/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.single_touch_snake"
 
   "Circle flow graph":
     name: "Circle flow graph"
@@ -202,6 +203,7 @@ apps =
     tags:  "app, game, ludum dare, hackathon"
     links:
       web_app: "/tsartnoc/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.tsartnoc"
 
   eurocards:
     name: "EuroCards"
