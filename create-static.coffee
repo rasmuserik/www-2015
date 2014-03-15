@@ -16,6 +16,16 @@ apps =
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
 
+  "morse-code":
+    name: "Learn morse code tapping"
+    icon: "morse-code.png"
+    date: "2014-03-15"
+    tags: "morse code, education"
+    desc: "Learn morse code (to blindtype on smartphones). Practise writing english words, learning a new letter at a time, and keep track of level/score."
+    links:
+      web_app: "morse-code/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.morse_code"
+
   "single-toush-snake":
     name: "Interface experiment: snake game"
     icon: "single-touch-snake.png"
