@@ -64,3 +64,6 @@
 [submodule "blobshot"]
 	path = blobshot
 	url = git@github.com:rasmuserik/blobshot.git
+[submodule "frie-sange"]
+	path = frie-sange
+	url = git@github.com:rasmuserik/frie-sange.git
