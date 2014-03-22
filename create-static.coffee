@@ -16,6 +16,16 @@ apps =
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
 
+  "frie sange":
+    name: "Frie børnesange"
+    icon: "frie-sange.png"
+    date: "2014-03-22"
+    tags: "in progress, not finished yet"
+    desc: "Udvalgte børnesange uden ophavsretslige begrænsninger, som derfor kan deles og anvendes frit"
+    links:
+      web_app: "frie-sange/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.frie_sange"
+
   "morse-code":
     name: "Learn morse code tapping"
     icon: "morse-code.png"
