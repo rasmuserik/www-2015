@@ -20,7 +20,7 @@ apps =
     name: "Frie børnesange"
     icon: "frie-sange.png"
     date: "2014-03-22"
-    tags: "in progress, not finished yet"
+    tags: "børnesange, open content, sangbog"
     desc: "Udvalgte børnesange uden ophavsretslige begrænsninger, som derfor kan deles og anvendes frit"
     links:
       web_app: "frie-sange/"
