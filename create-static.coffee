@@ -16,6 +16,14 @@ apps =
       sms: "sms:+4560703081"
       git_hub: "https://github.com/rasmuserik"
 
+  product:
+    name: "Product"
+    desc: ""
+    icon: "notes.jpg"
+    tags: "apps, visualisations, html5, open data, it-consulting"
+    links:
+      notes: "/notes/product"
+
   "frie sange":
     name: "Frie børnesange"
     icon: "frie-sange.png"

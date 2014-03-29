@@ -67,3 +67,6 @@
 [submodule "frie-sange"]
 	path = frie-sange
 	url = git@github.com:rasmuserik/frie-sange.git
+[submodule "writings"]
+	path = writings
+	url = git@github.com:rasmuserik/writings.git
