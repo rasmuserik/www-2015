@@ -24,6 +24,15 @@ apps =
     links:
       notes: "/notes/product"
 
+  "sketch-note":
+    name: "Sketch note draw"
+    icon: "sketch-note-draw.png"
+    date: "2014-04-05"
+    tags: "touch only, sketch, draw, prototype, infinite canvas, zoomable"
+    desc: "Zoomable infinite canvas prototype for drawing. Only usable with touch-devices."
+    links:
+      web_demo: "sketch-note-draw/"
+
   "frie sange":
     name: "Frie børnesange"
     icon: "frie-sange.png"
