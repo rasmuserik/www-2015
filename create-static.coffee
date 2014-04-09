@@ -28,8 +28,8 @@ apps =
     name: "Sketch note draw"
     icon: "sketch-note-draw.png"
     date: "2014-04-05"
-    tags: "touch only, sketch, draw, prototype, infinite canvas, zoomable"
-    desc: "Zoomable infinite canvas prototype for drawing. Only usable with touch-devices."
+    tags: "sketch, draw, prototype, infinite canvas, zoomable, unfinished"
+    desc: "Zoomable infinite canvas prototype for drawing."
     links:
       web_demo: "sketch-note-draw/"
 
