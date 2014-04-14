@@ -27,11 +27,12 @@ apps =
   "sketch-note":
     name: "Sketch note draw"
     icon: "sketch-note-draw.png"
-    date: "2014-04-05"
-    tags: "sketch, draw, prototype, infinite canvas, zoomable, unfinished"
+    date: "2014-04-11"
+    tags: "sketch, draw, prototype, infinite canvas, zoomable"
     desc: "Zoomable infinite canvas prototype for drawing."
     links:
-      web_demo: "sketch-note-draw/"
+      web_app: "sketch-note-draw/"
+      android_app: "https://play.google.com/store/apps/details?id=com.solsort.sketch_note_draw"
 
   "frie sange":
     name: "Frie børnesange"
