@@ -276,6 +276,7 @@ apps =
     links:
       "web_app": "http://old.solsort.com/#combigame"
       "android_app": "https://play.google.com/store/apps/details?id=com.solsort.combigame"
+      game_crafter: "https://www.thegamecrafter.com/games/CombiGame"
       #iOS_app: "com.solsort.combigame"
 
   "presentation-evaluation":
