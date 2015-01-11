@@ -24,6 +24,21 @@ apps =
     links:
       notes: "/notes/product"
 
+  "relvis":
+    name: "Visualisering af relationer"
+    icon: "relvis.png"
+    date: "2014-12-19"
+    tags: "bibliotek, library, DDB-CMS, visualisation, d3, statistik, relationer"
+    desc: "Grafisk visualisering af biblioteksmaterialer. Bemærk kører nogle gange langsomt pga. de eksterne data den skal hente, evt. genindlæs og vent."
+    links:
+      demo_berlin: "http://ssl.solsort.com/visualisering-af-relationer/solsort-related.html#relvis/cir870970-basis:29970874"
+      sammenlign_webservices: "/visualisering-af-relationer/compare.html#relvis/cir870970-basis:05625351"
+      vejlebib_anbefalinger: "https://vejlebib.dk/ting/object/870970-basis%3A28607733#relvis/cir870970-basis:29970874"
+      "vejlebib_gå på opdagelse": "https://vejlebib.dk/ting/object/870970-basis%3A27267912#relvis/ext870970-basis:27267912"
+      søgeresultater_kontrabas: "/visualisering-af-relationer/solsort-related.html#relvis/str870971-tsart:88574680,870971-tsart:87163652,870971-avis:72097580,870970-basis:01520873,870970-basis:02218453,870970-basis:02686082,870970-basis:08343748,870970-basis:03121291,870970-basis:25452712,870970-basis:25452739,870970-basis:25452747,870970-basis:25452771,870970-basis:03849341,870970-basis:03849368,870970-basis:03614514,870970-basis:22239295,870970-basis:50628892,870970-basis:43046578,870970-basis:02379783,870970-basis:02436930,870970-basis:02686112,820010-katalog:5255110__1,820010-katalog:5255110__2,820010-katalog:5255110__3,870970-basis:29956782,870970-basis:26406552,870970-basis:20734299,870970-basis:02686031,870970-basis:02686147,870970-basis:21973211"
+      git_hub: "https://github.com/solsort/visualisering-af-relationer"
+      "github_data": "https://github.com/vejlebib/visual_relation_server"
+
   "sketch-note":
     name: "Sketch note draw"
     icon: "sketch-note-draw.png"
@@ -901,7 +916,8 @@ do ->
       date = ["div.date", ""]
       monthday = months[entry.date.slice(5,7)]
       monthday += " " + +entry.date.slice(8,10) if monthday && entry.date.slice(8,10)
-      date.push ["div.monthday", monthday] if monthday
+      # only show year
+      # date.push ["div.monthday", monthday] if monthday
       date.push ["div.year", entry.date.slice(0,4)] if entry.date.slice(0,4)
 
 
